@@ -1,0 +1,16 @@
+opencv-python==4.2.0.34 # higher version not working in Ubuntu 18.04
+pptk
+roboticstoolbox-python
+spatialmath-python
+sympy
+ruamel.yaml
+pathlib
+
+deeplabcut[gui]==2.2.1
+
+pyyaml
+rospy
+rospkg
+# tf_conversions
+
+simple-pid
