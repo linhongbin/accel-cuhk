@@ -32,9 +32,9 @@ This is CUHK team's official code for AccelNet2022, challenges in surgical auton
 
 ## How to Run
 
-- Challenge 1, please refer to [README](https://github.com/linhongbin-ws/accel-challenge/tree/master/accel_challenge/challenge1)
-- Challenge 2, please refer to [README](https://github.com/linhongbin-ws/accel-challenge/tree/master/accel_challenge/challenge2)
-- Challenge 3, please refer to [README](https://github.com/linhongbin-ws/accel-challenge/tree/master/accel_challenge/challenge3)
+- Challenge 1, please refer to [README](./accel_challenge/challenge1/README.md)
+- Challenge 2, please refer to [README](./accel_challenge/challenge2/README.md)
+- Challenge 3, please refer to [README](./accel_challenge/challenge3/README.md)
 
 
 
