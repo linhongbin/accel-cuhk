@@ -1,4 +1,5 @@
 touch ./init.sh
+source ./config.sh
 echo "source ./config.sh" >> $ROOT/init.sh
 echo "source $ANACONDA_PATH/bin/activate" >> $ROOT/init.sh
 echo "alias python=$ANACONDA_PATH/envs/$ENV_NAME/bin/python3.7" >> $ROOT/init.sh

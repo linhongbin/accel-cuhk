@@ -26,27 +26,30 @@ Therefore please feel free to contact us (Name: Bin LI, Email: [bli@mae.cuhk.edu
     ```
 - Open 2nd terminal, run the following lines in ambf folder (ambf/bin/lin-x86_64) to pop out the simulator:
   ```bash
-  ./ambf_simulator --launch_file <surgical_robotics_challenge>/launch.yaml -l 0,1,3,4,14,15 -p 200 -t 1 --override_max_comm_freq 120
+  source init.sh
+  $AMBF_PATH/bin/lin-x86_64/ambf_simulator --launch_file ./bash/launch_modified.yaml -l 0,1,3,4,14,15 -p 200 -t 1 --override_max_comm_freq 120
   ```
-- Open 3rd terminal, run the needle pose estimation:
+- Open 3th terminal, run the evaluation for our estimated pose estimation:
   ```bash
-  conda activate accel_challenge
-  cd <accel-challenge>/accel_challenge/challenge1
-  python challenge1.py -t Tstone -e 1
-  ```
-  If there exists cv_bridge errors, please run the following code:
-  ```bash
-  conda activate accel_challenge
-  source ~/catkin_ws/devel/setup.bash (Note that we build the python3 version cv_bridge in ~/catkin_ws folder)
-  cd <accel-challenge>/accel_challenge/challenge1
-  python challenge1.py -t Tstone -e 1
-  ```
-- Open 4th terminal, run the evaluation for our estimated pose estimation:
-  ```bash
-  conda activate accel_challenge
-  cd  <surgical_robotics_challenge>/scripts/surgical_robotics_challenge/evaluation
+  source init.sh
+  cd ./surgical_robotics_challenge/scripts/surgical_robotics_challenge/evaluation/
   python evaluation.py -t Tstone -e 1
   ```
+
+- Open 4rd terminal, run the needle pose estimation:
+  ```bash
+  source init.sh
+  cd ./accel_challenge/challenge1
+  python challenge1.py -t Tstone -e 1
+  ```
+  >>If there exists cv_bridge errors, please run the following code:
+    ```bash
+    source init.sh
+    source ~/catkin_ws/devel/setup.bash (Note that we build the python3 version cv_bridge in ~/catkin_ws folder)
+    cd <accel-challenge>/accel_challenge/challenge1
+    python challenge1.py -t Tstone -e 1
+    ```
+
 
 # Notes for organizers
 As a reference, the local Task 1 Overall Score of our method is between **0.002 ~ 0.015 Simulation Units**.

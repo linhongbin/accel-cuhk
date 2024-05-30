@@ -4,3 +4,5 @@ accel_challenge.egg-info/
 **/__pycache__/
 
 init.sh
+
+model/
