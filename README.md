@@ -22,6 +22,7 @@ This is CUHK team's official code for AccelNet2022, challenges in surgical auton
     Or you can download from [google drive](https://drive.google.com/drive/u/1/folders/1eiXzMv_ZAUeLER_NTRM3zLrPhgxLtzn8)
 
 ## Install
+- Install [ROS Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu), the code is tested on Ubuntu 20.04
 - Modify [config.sh](./config.sh) file, where you can set path variables.
 - Install via bash
 
