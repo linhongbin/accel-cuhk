@@ -1,0 +1,4 @@
+[submodule "ambf"]
+	url = https://github.com/WPI-AIM/ambf.git
+[submodule "surgical_robotics_challenge"]
+	url = https://github.com/linhongbin-ws/surgical_robotics_challenge.git

@@ -2,7 +2,7 @@
 
 This is CUHK team's official code for AccelNet2022, challenges in surgical autonomy.[project website](https://sites.google.com/view/accelnetchallenge2022cuhkteam/home)
 
-
+gdown --folder https://drive.google.com/drive/u/1/folders/1eiXzMv_ZAUeLER_NTRM3zLrPhgxLtzn8
 
 ## Dowload
 
