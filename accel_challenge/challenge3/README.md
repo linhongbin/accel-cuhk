@@ -6,18 +6,17 @@
     ```
 - Open 2nd terminal, run the following lines to pop out simulator:
     ```sh
-    cd <path to accel-challenge>
-    source bash/run_simulator.sh
+    source init.sh
+    $AMBF_PATH/bin/lin-x86_64/ambf_simulator --launch_file ./bash/launch_modified.yaml -l 0,1,3,4,14,15 -p 120 -t 1 --override_max_comm_freq 120
     ```
 - Open 3rd terminal, run to start `crtk_interface`, which running controllers and rostopics
     ```sh
-    cd <path to accel-challenge>
-    source bash/run_crtk_interface.sh
+    source init.sh
+    python ./bash/crtk_interface_modified.py
     ```
 
 - Open 4rd terminal to run needle tracking algorithm
     ```sh
-    cd <path to accel-challenge>
     source bash/init.sh
     cd <path to accel-challenge>/accel_challenge/challenge3
     python task_completion_report_for_challenge3.py

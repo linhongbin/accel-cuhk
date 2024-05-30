@@ -1,17 +1,8 @@
 ## Overview
 
-This is code of CUHK team for AccelNet2022, targeting to solve tasks of suturing autonomy in simulation environment. Please check out our [project website](https://sites.google.com/view/accelnetchallenge2022cuhkteam/home)
+This is CUHK team's official code for AccelNet2022, challenges in surgical autonomy.[project website](https://sites.google.com/view/accelnetchallenge2022cuhkteam/home)
 
-- Citation
 
-```
-@inproceedings{hlin2022Accel,
-  title={{Open-source High-precision Autonomous Suturing Framework With Visual Guidance}},
-  author={Lin, Hongbin and Li, Bin and Liu, Yunhui  and Kwok Wai Samuel Au},
-  booktitle={IEEE Int. Conf. Robotics and Automation (ICRA) Workshop on ``A Panacea Or An Alchemy? Benefits And Risks Of Robot Learning In Medical Applications''},
-  year={2022}
-}
-```
 
 ## Dowload
 
@@ -95,3 +86,16 @@ This is code of CUHK team for AccelNet2022, targeting to solve tasks of suturing
 - To run Challenge #1, please refer to [README](https://github.com/linhongbin-ws/accel-challenge/tree/master/accel_challenge/challenge1)
 - To run Challenge #2, please refer to [README](https://github.com/linhongbin-ws/accel-challenge/tree/master/accel_challenge/challenge2)
 - To run Challenge #3, please refer to [README](https://github.com/linhongbin-ws/accel-challenge/tree/master/accel_challenge/challenge3)
+
+
+
+- Citation
+
+```
+@inproceedings{hlin2022Accel,
+  title={{Open-source High-precision Autonomous Suturing Framework With Visual Guidance}},
+  author={Lin, Hongbin and Li, Bin and Liu, Yunhui  and Kwok Wai Samuel Au},
+  booktitle={IEEE Int. Conf. Robotics and Automation (ICRA) Workshop on ``A Panacea Or An Alchemy? Benefits And Risks Of Robot Learning In Medical Applications''},
+  year={2022}
+}
+```

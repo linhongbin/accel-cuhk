@@ -5,6 +5,7 @@ spatialmath-python
 sympy
 ruamel.yaml
 pathlib
+scikit-image
 
 deeplabcut[gui]==2.2.1
 
